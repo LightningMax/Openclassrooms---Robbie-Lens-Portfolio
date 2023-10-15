@@ -1,0 +1,19 @@
+body {
+    background-color: skyblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap: 10px;
+}
+
+.box {
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
