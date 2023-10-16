@@ -47,6 +47,7 @@ header, footer {
 }
 
 .cta {
+    display: inline-block;
     background: linear-gradient(#8E86B5, #ACAEED);
     font-family: 'montserrat', sans-serif;
     color: white;
