@@ -1,0 +1,40 @@
+.accueil-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.accueil-main h1 {
+    margin-bottom: 15px;
+}
+
+.accueil-main p {
+    margin-bottom: 46px;
+}
+
+.accueil-main div {
+    padding-right: 80px;
+}
+
+.projects {
+    background-color: white;
+    padding: 80px;
+}
+
+.projects h2 {
+    color: #1F2039;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.projects div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
