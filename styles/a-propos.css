@@ -7,7 +7,7 @@
     margin-bottom: 80px;
 }
 
-.carre-contenu + div {
+.carre-contenu+div {
     text-align: center;
 }
 
@@ -31,7 +31,8 @@ table {
     border-collapse: collapse;
 }
 
-tr, td {
+tr,
+td {
     border: 1px #8e86b5 solid;
     padding: 80px;
 }
@@ -46,6 +47,8 @@ caption {
     margin-bottom: 60px;
 }
 
-h1, caption, td {
+h1,
+caption,
+td {
     text-align: center;
 }

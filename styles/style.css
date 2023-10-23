@@ -1,12 +1,12 @@
 * {
     margin: 0;
 }
+
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
-    background-color:  #1F2039;
+    background-color: #1F2039;
 }
-
 
 h1 {
     font-size: 3.5em;
@@ -18,13 +18,14 @@ h2 {
     color: #f9f8ff;
 }
 
-p, li{
+p,
+li {
     font-size: 1.1em;
     color: #f9f8ff;
 }
 
 em {
-    color:#A5B4FC;
+    color: #A5B4FC;
     font-style: normal;
 }
 
@@ -37,8 +38,9 @@ a:hover {
     text-decoration: underline;
 }
 
-header, footer {
-    background-color:white;
+header,
+footer {
+    background-color: white;
     padding: 20px 50px;
 }
 
@@ -56,7 +58,7 @@ header, footer {
     padding: 20px 30px;
 }
 
-.cta:hover{
+.cta:hover {
     text-decoration: none;
     background: linear-gradient(#696484, #8788BA)
 }
@@ -65,7 +67,8 @@ section {
     padding: 80px;
 }
 
-footer, nav {
+footer,
+nav {
     display: flex;
     flex-direction: row;
     align-items: center;
