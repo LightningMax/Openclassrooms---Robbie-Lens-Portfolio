@@ -44,6 +44,7 @@ header, footer {
 
 .lien-icone:hover {
     opacity: 0.5;
+    text-decoration: none;
 }
 
 .cta {
