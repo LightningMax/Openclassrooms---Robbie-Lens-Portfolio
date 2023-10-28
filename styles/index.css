@@ -38,3 +38,34 @@
     margin-bottom: 15px;
     flex-wrap: wrap;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+form h2 {
+    text-align: center;
+    color: #A5B4FC;
+    margin-bottom: 26px;
+}
+
+form div {
+    display: flex;
+}
+
+form div > div {
+    flex-direction: column;
+}
+
+label {
+    padding: 5px 0px;
+}
+
+form > div:last-child {
+    margin-top: 20px;
+    justify-content: center;
+}
