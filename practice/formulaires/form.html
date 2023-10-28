@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="prenom">Votre prénom</label>
+        <input 
+            type="text" name="prenom" 
+            id="prenom" placeholder="Ex: Joao da Silva" 
+            size=20" maxlength="60"
+        >
+    </form>
+    <form action="" method="get">
+        <label for="ameliorer">Des conseils pour ameliorer mon site ?</label>
+        <textarea name="ameliorer" id="ameliorer" cols="1" rows="5"></textarea>
+    </form>
+    <form action="" method="get">
+        <label for="email">Saisir votre e-mail :</label>
+        <input type="email" id="email" placeholder="Ex: joaodasilva@exemple.com">
+    </form>
+    <form action="">
+        <label for="lien">Saisir le lien de votre site web :</label>
+        <input type="url" name="lien" id="lien">
+    </form>
+    <form action="">
+        <label for="">Volume</label>
+        <input type="range">
+    </form>
+    <form action="">
+        <label for="start">Date :</label>
+        <input 
+            type="date" id="start" 
+            name="trip-start" value="2023-01-01" 
+            min="2023-01-01" max="2025-12-31"
+        >
+    </form>
+    <form action="">
+        <label for="heur">Heure : </label>
+        <input type="time">
+    </form>
+    <form action="">
+        <label for="semaine">Semaine : </label>
+        <input type="week" name="semaine" id="semaine">
+    </form>
+    <form action="">
+        <label for="">Date et l'heure : </label>
+        <input type="datetime-local">
+    </form>
+</body>
+
+</html>

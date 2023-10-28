@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/bouton.css">
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Vos coordonées</legend>
+            <label for="nom">Quel est votre nom ?</label>
+            <input type="text" name="nom" id="nom">
+            <label for="prenom">Quel est votre prénom ?</label>
+            <input type="text" name="prenom" id="prenom">
+            <label for="email">Quel est votre e-mail ?</label>
+            <input type="email" name="email" id="email" autofocus required>
+        </fieldset>
+        <fieldset>
+            <legend>Votre souhait</legend>
+            <p>
+                Faites un souhait que vous voudriez voir exaucé :
+                <input type="radio" name="souhait" id="riche" value="riche"> <label for="riche">Etre riche</label>
+                <input type="radio" name="souhait" id="celebre" value="celebre"> <label for="celebre">Etre celèbre</label>
+                <input type="radio" name="souhait" id="intelligent" value="intelligent"> <label for="intelligent">Etre <strong>encore</strong> plus intelligent</label>
+                <input type="radio" name="souhait" id="autre" value="autre"> <label for="autre">Autre...</label>
+            </p>
+            <p>
+                <label for="precisions">Si "autre", veuillez préciser :</label>
+                <textarea name="precisions" id="precisions" cols="30" rows="4"></textarea>
+            </p>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

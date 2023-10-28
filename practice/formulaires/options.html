@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <p>Cochez les aliments que vous aimez manger :</p>
+            <input type="checkbox" name="frites" id="frites"> <label for="frites">Frites</label><br>
+            <input type="checkbox" name="steak" id="steak"> <label for="steak">Steak</label><br>
+            <input type="checkbox" name="epinards" id="epinards" checked> <label for="epinards">Epinards</label> <br>
+            <input type="checkbox" name="huitres" id="huitres"> <label for="huitres">Huitres</label>
+        </div>
+    </form>
+    <form action="">
+        <p>
+            Veuillez indiquer la tranche d'âge dans laquelle vous situez :<br>
+            <input type="radio" name="age" id="moins15" value="moins15"> <label for="moins15">Moins de 15 ans</label> <br>
+            <input type="radio" name="age" id="medium15-25" value="medium15-25"> <label for="medium15-25">15-25 ans</label> <br>
+            <input type="radio" name="age" id="medium25-40" value="medium25-40"> <label for="medium25-40">25-40 ans</label> <br>
+            <input type="radio" name="age" id="plus40" value="plus40"> <label for="plus40">Plus de 40 ans</label> <br>
+        </p>
+    </form>
+    <form action="">
+        <p>
+            <label for="pays">Dans quel pays habitez-vous ?</label>
+            <div>
+                <select name="pays" id="pays">
+                    <option value="espagne">Espagne</option>
+                    <option value="royaume-uni">Royaume-uni</option>
+                    <option value="canada">Canada</option>
+                    <option value="japon">Japon</option>
+                </select>
+            </div>
+        </p>
+    </form>
+</body>
+</html>
