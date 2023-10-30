@@ -38,3 +38,43 @@
     margin-bottom: 15px;
     flex-wrap: wrap;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #A5B4FC;
+    margin-bottom: 40px;
+}
+
+.nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 15px;
+}
+
+label {
+    padding: 5px 0px;
+}
+
+#button-form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
